@@ -12,7 +12,7 @@ public class AbsoluteMax {
      */
     public static int getMaxValue(int... numbers) {
         if (numbers.length == 0) {
-            throw new IllegalArgumentException("Numbers array cannot be empty!!");
+            throw new IllegalArgumentException("Numbers array cannot be empty....");
         }
 
         var absMaxWrapper = new Object() {
